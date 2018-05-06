@@ -4,7 +4,7 @@ title:      "Git的基础使用"
 subtitle:   ""
 date:       2018-05-06 12:00:00
 author:     "Popo"
-header-img: "img/bg/bg_xingkong1.jpg"
+header-img: "img/bg/bg_xingkong5.jpg"
 tags:
     - 工作
 ---
