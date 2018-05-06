@@ -1,0 +1,90 @@
+# Site settings
+title: Popo Blog
+SEOTitle: Popo的博客 | Popo Blog
+#header-img: img/bg/bg_xingkong2.jpg
+email: linchunboemail@163.com
+description: "好记性不如烂笔头，今天的努力了，以后才可能有回报。"
+keyword: ""
+url: "linchunbogit.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+timezone: CN
+
+gems: [jekyll-paginate]
+
+
+# SNS settings
+RSS: false
+
+#zhihu_username:     12345678
+#github_username:    12345678
+#douban_username:    12345678
+#weibo_username:     12345678
+#twitter_username:   12345678
+#facebook_username:  12345678
+
+
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+#duoshuo_username: 12345678
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# LiveRe setttings
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC8yODg4Mi81NDUy
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 207a182a0a79e8a76bfd02381045166f
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "编程太难，只懂一点点。梦想更难，唯独坚持。"
+sidebar-avatar: /img/icon/icon_note.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+#friends: [
+#    {
+#        title: "123",
+#        href: "http://123.html"
+#    },{
+#        title: "345",
+#        href: "http://345.html"
+#    }
+#]
