@@ -6,8 +6,8 @@ date:       2018-05-06 19:43:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
 tags:
-    - c++
-	- 编程基础
+	- c++
+    - 编程基础
 ---
 
 ### 指针
