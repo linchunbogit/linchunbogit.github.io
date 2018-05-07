@@ -5,8 +5,8 @@ subtitle:   " "
 date:       2018-05-06 22:40:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
-tags:		
-	- 编程基础
+tags:
+    - 编程基础
 ---
 
 ```
