@@ -7,7 +7,6 @@ author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
 tags:
 	- c++
-    - 编程基础
 ---
 
 ### 指针
