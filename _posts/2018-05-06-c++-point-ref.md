@@ -6,7 +6,7 @@ date:       2018-05-06 19:43:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
 tags:
-	- c++
+	- "c++"
 ---
 
 ### 指针
