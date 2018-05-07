@@ -1,0 +1,13 @@
+---
+layout: page
+description: "程序猿"
+header-img: "img/bg/bg_xingkong1.jpg"
+---
+
+<h2> {{ page.title }} </he2>
+<p>new article list</p>
+<ul>
+	{% for post in site.posts %}
+		<li>{{ post.title }}</li>
+	{% endfor %}
+</ul>
