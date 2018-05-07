@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "编译原理"
-subtitle:   ""
+subtitle:   " "
 date:       2018-05-07 11:14:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
@@ -17,15 +17,19 @@ tags:
 * 宏定义指令
 \#define MAX_FILE_LENGTH 1024
 这些宏指令会被替换成相应的定义的内容
+
 * 条件编译指令
 \#if \#ifdef \#ifndef \#else \#elif \#endif
 这些指令会用于决定编译那些程序段
+
 * 头文件包含指令
 \#include "hello.h" \#include <hello.h>
 这些文件的声明将会包含到使用include的文件里面
+
 * 特殊符号
 \_\_FILE\_\_, \_\_LINE\_\_, \_\_DATE\_\_, \_\_TIME\_\_, \_\_STDC\_\_(编译器是否遵循ANSI C), #, ##
 这些特殊符号也会和宏定义指令一样，进行相应的替换或者处理。（#像宏一样替换,## 是做字符拼接用的）
+
 * 预处理模块
 预处理工作由#pragma命令完成，#Pragma命令将设定编译器的状态或者是指示编译器完成  一些特定的动作，例如大家经常见到的#program once，或者偶尔见得#program message。
 

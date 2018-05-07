@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "c++指针和引用"
-subtitle:   ""
+subtitle:   " "
 date:       2018-05-06 19:43:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
