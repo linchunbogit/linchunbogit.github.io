@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "编译原理"
+title:      逆波兰解析公式C#实现
 subtitle:   " "
-date:       2018-05-07 11:14:00
+date:       2018-05-06 22:40:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
 tags:
-    - 编程基础
+    - c#
+    - 完整代码
 ---
 
 ```
