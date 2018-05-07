@@ -7,8 +7,6 @@ author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
 tags:
     - 面试
-	- unity
-	- ue
 ---
 
 
