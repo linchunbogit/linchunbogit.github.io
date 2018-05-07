@@ -1,7 +1,7 @@
 ---
-layout:     post
-title:      "逆波兰解析公式C#实现"
-subtitle:   " "
+layout:post
+title:"逆波兰解析公式C#实现"
+subtitle:" "
 date:       2018-05-06 22:40:00
 author:     "Popo"
 header-img: "img/bg/bg_xingkong5.jpg"
