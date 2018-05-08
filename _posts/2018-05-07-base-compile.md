@@ -15,8 +15,7 @@ tags:
 
 ##### 编译预处理(头文件和宏的展开)
 * 宏定义指令
-
-\#define MAX_FILE_LENGTH 1024
+`#define MAX_FILE_LENGTH 1024`
 这些宏指令会被替换成相应的定义的内容
 
 * 条件编译指令
