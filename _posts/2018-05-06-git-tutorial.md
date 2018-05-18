@@ -89,8 +89,8 @@ git config --global user.email 邮件
 给标签加信息：`git tag -a 标签名称 -m 信息`
 
 ##### git update-index
-忽略指定文件的改动跟踪 `git update-index –assume-unchanged /aa.text`</br>
-恢复指定文件的改动跟踪 `git update-index –no-assume-unchanged /aa.text`</br>
+忽略指定文件的改动跟踪 `git update-index –assume-unchanged /aa.text` 
+恢复指定文件的改动跟踪 `git update-index –no-assume-unchanged /aa.text` 
 查看所有忽略改动跟踪的文件 `git ls-files -v | grep '^h\ '`</br>
 恢复所有的忽略跟踪文件 `git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged `<br>
 
