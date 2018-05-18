@@ -66,8 +66,8 @@ git config --global user.email 邮件
 
 ##### git checkout
 分支切换
-切换到指定分支：`git branch 已经存在的分支名称`
-创建切切换到分支：`git branch -b 不存在的分支名`
+切换到指定分支：`git checkout 已经存在的分支名称`
+创建切切换到分支：`git checkout -b 不存在的分支名`
 
 ##### git merge
 分支合并
@@ -87,6 +87,12 @@ git config --global user.email 邮件
 给版本上标签：`git tag -a v1.0`
 给老版本追加标签：`git tag -a v1.2 版本号`
 给标签加信息：`git tag -a 标签名称 -m 信息`
+
+##### git update-index
+忽略指定文件的改动跟踪 `git update-index –assume-unchanged /aa.text`</br>
+恢复指定文件的改动跟踪 `git update-index –no-assume-unchanged /aa.text`</br>
+查看所有忽略改动跟踪的文件 `git ls-files -v | grep '^h\ '`</br>
+恢复所有的忽略跟踪文件 `git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged `<br>
 
 ### 冲突处理
 把有冲突的文件的中所有 <<<<<<<HEAD 和 >>>>>>> ????的内容处理就好，然后把这个区间符删除就可以了
