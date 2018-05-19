@@ -171,10 +171,10 @@ SHOW TABLES;
 // CREATE TABLE 表名 (字段 字段类型,...)
 // 例子：创建TEST_TABLE
 CREATE TABLE TEST_TABLE(
-	id int(4) not null primary key auto_increment,
-	name char(20) not null,
-	sex int(4) not null default '0',
-	degree double(16,2));
+  id int(4) not null primary key auto_increment,
+  name char(20) not null,
+  sex int(4) not null default '0',
+  degree double(16,2));
 ```
 
 * **查看表结构**
